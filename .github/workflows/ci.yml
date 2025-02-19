@@ -39,3 +39,6 @@ jobs:
 
       - name: Check formatting issues
         run: test -z $(go fmt ./...)
+
+      - name: Check linting issues
+        run: test -z $(staticcheck ./...)
