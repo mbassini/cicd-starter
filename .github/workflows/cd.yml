@@ -43,4 +43,4 @@ jobs:
           --region us-central1 \
           --allow-unauthenticated \
           --project notely-451419 \
-          --max-instances=4
+          --max-instances 4
